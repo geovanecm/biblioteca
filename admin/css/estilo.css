@@ -1,0 +1,187 @@
+
+
+/*hover*/
+*, *:after, *:before{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  line-height: 1.5;
+}
+
+.menu{
+  background-color: rgba(66, 197, 190, 1);
+  border-bottom: solid 1px;
+  border: solid 1px #DCDCDC;
+  width: 100%;
+}
+
+.menu .menu-list, .menu .sub-menu{
+  list-style: none;
+}
+.menu a{
+ 
+  text-decoration: none;
+  display: block;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 700;
+  /*espaçamento menor que o pixel*/
+  letter-spacing:0.2em;
+  color: White;
+  font-family: helvetica-w01-light, helvetica-w02-light, sans-serif;
+}
+
+
+.menu > .menu-list > li{
+  	display: inline-block;
+  	position: relative;
+	margin-left: 10%;
+}
+.menu > .menu-list > li > a {
+  padding: 20px;
+  margin: 0 5px;
+}
+a:hover{
+  color: black;
+}
+
+.menu > .menu-list > li:hover a {
+background-color: #42C5BE;
+
+}
+.menu > .menu-list > li:hover > .sub-menu {
+  display: block;
+}
+.menu > .menu-list > 
+li > .sub-menu {
+  position: absolute;
+  left: 4%;
+  background: #444;
+  display: none;
+}
+
+
+.menu > .menu-list > li > .sub-menu > li > a {
+    padding: 10px 30px;
+}
+.menu:after {
+  content: '.';
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+
+.conteudo{
+	width: 90%;
+	margin-left:5%;
+}
+
+.rodapee h1{
+	color: rgba(55,55,55,0.0);
+}
+
+.rodapee{
+	width: 100%;
+		
+}
+
+.produto{
+	width: 90%;
+	
+	
+}
+
+.imagem_ll img{
+	width: 200px;
+	
+}
+
+.cont_livron{
+border: solid;
+
+}
+
+#input{
+display: none;
+
+}
+
+.cont_livron{
+  width: 80%;
+  margin-left: 10%;
+  float: left;
+  margin-top: 3%;
+}
+
+.con1_livron{
+  margin-top: 5%;
+  margin-left: 7%;
+  margin-right: 7%;
+  width: 150px;
+  height: 140PX;
+  border: solid 1px #DCDCDC;
+  float: left;
+}
+
+.cont2_livron{
+  margin-top: 4%;
+  float: left;
+  margin-left: 5%;
+}
+
+.cont3_livron{
+
+  float: left;
+  margin-left: 10%;
+  margin-top: 4%;
+}
+
+.listagem_livros{
+	margin-top: 5%;
+	margin-left:5%;
+	width: 90%;
+	float: left;
+	border: solid;
+}
+
+.imagem_ll{
+	margin-left: 1%;
+	margin-right: 3%;
+	margin-top: 1%;
+	margin-bottom: 1%;
+	float: left;
+}
+
+.p2_ll{
+	margin-left: 5%;
+	margin-top: 1%;
+	float: left;
+}
+
+
+
+.p3_ll{
+	margin-top: 1%;
+	margin-left: 15%;
+	float: left;
+}
+
+.p3_ll img{
+	width: 3006px;
+	height: 131px;
+}
+
+#autor{
+	margin-top: 40%;
+	
+}
+.p4_ll img{
+	float: right;
+	margin-right: 3%;
+	margin-top: 2%;
+}
+

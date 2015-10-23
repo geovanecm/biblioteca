@@ -1,0 +1,66 @@
+body{
+	background-color: #fff;
+}
+
+/*#############################################################################################################################################################*/
+/*																		Login																													*/					
+/*#############################################################################################################################################################*/
+
+.pagina{
+	margin-left:15%;
+	margin-right: 15%;
+	margin-top: 10%;
+	width: 70%;
+	border:1px solid gray;
+	border-radius: 10px 10px 0px 0px;
+}
+
+.titulo{
+	background: black;
+	border:1px solid black;
+	border-radius: 10px 10px 0px 0px;
+}
+
+#titulo_l{
+	font-size: 30px;
+	text-align: center;
+	color: white;
+}
+
+.conteudo_login{
+	
+
+}
+
+.cont{
+	text-align: center;
+}
+
+
+#botao{
+	margin-top:1%; 
+	margin-left: 7%;
+
+}
+
+#pwd{
+	width: 90%;
+	margin-left: 5%;
+
+
+	 }
+
+
+button{
+	border: none;
+	background-color: #EEEEEE; 
+}
+
+.input-group{
+	width: 90%;
+	margin-left: 5%;
+	text-align: center;
+}
+
+/*############################################################################################################/*																																		                                                Cadastro																													
+/*############################################################################################################/*
